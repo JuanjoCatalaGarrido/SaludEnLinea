@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Revisiones médicas en línea" />
+    <meta name="keywords" content="salud, médico, medicina" />
+    <meta name="author" content="Juan José Catalá Garrido" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/nav_responsive.css" />
+    <link rel="stylesheet" href="../css/login_responsive.css" />
+    <link
+      rel="stylesheet"
+      href="../resources/icons/bootstrap-icons-1.11.2/font/bootstrap-icons.min.css"
+    />
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <title>SaludEnLínea</title>
+  </head>
+  <body>
+    <nav>
+      <div id="nav-img-container">
+        <img src="../resources/images/icon.gif" />
+      </div>
+      <div id="nav-menu-section">
+        <a href="../index.html" id="nav-menu-section-item-1">Inico</a>
+        <a href="citas.html" class="nav-menu-section-item-2">Mis citas</a>
+        <a href="especialistas.html" class="nav-menu-section-item-3">Especialistas</a>
+        <a href="aboutUs.html" class="nav-menu-section-item-4">Sobre nosotros</a>
+        <a href="faq.html" class="nav-menu-section-item-5">Preguntas Frecuentes</a>
+      </div>
+      <div id="nav-login-section">
+        <a href="login.html" class="button">Inicio Sesión</a>
+      </div>
+      <div class="menu-desplegable">
+        <i class="bi bi-list"></i>
+        <div class="menu-desplegable-content">
+          <a href="citas.html" class="nav-menu-section-item-2">Mis citas</a>
+          <a href="especialistas.html" class="nav-menu-section-item-3">Especialistas</a>
+          <a href="aboutUs.html" class="nav-menu-section-item-4">Sobre nosotros</a>
+          <a href="faq.html" class="nav-menu-section-item-5">Preguntas Frecuentes</a>
+        </div>
+      </div>
+    </nav>
+    <section id="login-section">
+      <div id="login-stock-photo-container">
+        <img src="../resources/images/login-stock-compressed.jpg" alt="foto de stock" />
+      </div>
+      <form id="login-form" method="post" action="#">
+        <h2>Crear una cuenta</h2>
+        <br />
+        <br />
+        <input type="email" placeholder="Correo electrónico" required/>
+        <br />
+        <br />
+        <input type="password" placeholder="Contraseña" required/>
+        <br />
+        <br />
+        <!--<div class="g-recaptcha" data-sitekey="your_site_key"></div>-->
+        <br />
+        <br />
+        <!--<input type="submit" value="Registro" id="register-button"/> -->
+        <a id="register-button"  class="button" href="">Registro</a>
+      </div>
+      </form>
+    </section>
+  </body>
+</html>

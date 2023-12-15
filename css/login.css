@@ -1,0 +1,46 @@
+#login-section {
+  background-color: #3cd7a5;
+  padding: 1rem 1rem;
+
+  display: flex;
+  flex-direction: row;
+}
+
+#login-stock-photo-container {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#login-stock-photo-container img {
+  /*width: 50%;
+  height: auto;*/
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.5rem;
+}
+
+#login-form {
+  flex-basis: 50%;
+  /*padding-left: 4%;*/
+  text-align: center;
+}
+
+#login-form h2 {
+  font-size: 2.5rem;
+}
+
+#login-form input[type="submit"] {
+  background-color: #2a705c;
+  color: white;
+  font-size: 1rem;
+  padding: 0.3rem;
+  border: 0.1rem solid black;
+  border-radius: 0.5em;
+}
+
+#register-button {
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}

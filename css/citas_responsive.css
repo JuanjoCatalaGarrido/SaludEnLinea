@@ -1,0 +1,16 @@
+@media (max-width: 920px) {
+  .cita {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .cita-options {
+    flex-direction: row;
+    border-left: none;
+    margin-top: 1rem;
+  }
+  .cita-options a {
+    font-size: 2rem;
+    margin: 0 0.5rem;
+  }
+}

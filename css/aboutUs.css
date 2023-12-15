@@ -1,0 +1,36 @@
+#about-us-section {
+  background-color: #3cd7a5;
+  display: flex;
+}
+
+#text-container {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
+#text-container h2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+#text-container p {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: justify;
+}
+
+#image-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#image-container img {
+  height: 90%;
+  width: 90%;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0.5rem;
+}
