@@ -41,6 +41,25 @@
         </div>
       </div>
     </nav>
+    <figure class="saludEnLinea-audio">
+      <figcaption>Pachelbel - Canon (D Major)</figcaption>
+      <div class="audio-controls">
+        <i class="bi bi-play" onclick="playAudio()"></i>
+        <i class="bi bi-pause" onclick="pauseAudio()"></i>
+        <i class="bi bi-stop" onclick="stopAudio()"></i>
+        <input type="range" value="50" max="100" step="1" oninput="changeVolume(this.value)" />
+        <audio id="welcome-audio" preload="auto" autoplay>
+          <source
+            src="resources/audio/saludEnLinea.ogg"
+            type="audio/ogg"
+          />
+          <source
+            src="resources/audio/saludEnLinea.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+      </div>
+    </figure>
     <section id="homepage-section">
       <img />
       <p id="sample-text-1">
@@ -51,5 +70,6 @@
       <p id="sample-text-2">Los mejores especialistas a tu alcance</p>
     </section>
     <footer></footer>
+    <script src="js/audioControls.js"></script>
   </body>
 </html>
