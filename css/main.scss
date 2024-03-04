@@ -1,3 +1,7 @@
+@import "variables";
+@import "reset";
+@import "responsive/main_reponsive";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +20,7 @@ body {
 }
 
 nav {
-  background-color: #3cd7a5;
+  background-color: $primaryColor;
   box-sizing: border-box;
   width: 100%;
   height: 15%;
@@ -30,7 +34,7 @@ nav {
 }
 
 section {
-  background-color: #3cd7a5;
+  background-color: $primaryColor;
   width: 100%;
   height: 85%;
   margin-top: 0.9rem;
@@ -38,10 +42,11 @@ section {
 
 #nav-img-container {
   flex-basis: 10%;
-}
-#nav-img-container img {
-  max-width: 80%;
-  max-height: 80%;
+
+  img {
+    max-width: 80%;
+    max-height: 80%;
+  }
 }
 
 #nav-menu-section {
@@ -51,22 +56,22 @@ section {
 
   justify-content: center;
   align-items: center;
+
+  a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    transition: all 250ms ease-in-out;
+
+    :hover {
+      transform: translateY(0.2rem);
+    }
+  }
 }
 
-#nav-menu-section a {
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: black;
-  transition: all 250ms ease-in-out;
-}
-
-#nav-menu-section a:hover {
-  transform: translateY(0.2rem);
-}
 
 #nav-login-section {
   display: flex;
-  /*text-align: center;*/
   flex-basis: 12%;
   margin-right: 0.5rem;
 
@@ -74,14 +79,14 @@ section {
   align-items: center;
   text-align: center;
   transition: all 250ms ease-in-out;
-}
 
-#nav-login-section:hover {
-  transform: translateY(0.2rem);
+  :hover {
+    transform: translateY(0.2rem);
+  }
 }
 
 a.button {
-  background-color: #2a705c;
+  background-color: $secondaryColor;
   font-size: 1.1rem;
   color: white;
   text-decoration: none;
@@ -92,7 +97,6 @@ a.button {
 
 #homepage-section {
   background-image: url("../resources/images/homepage-bg-low-expo-compressed.jpg");
-  /*background-size: cover;*/
   background-size: 100% 100%;
   color: white;
   font-size: 3rem;
@@ -112,15 +116,14 @@ a.button {
   text-decoration: none;
   margin-left: 30rem;
   padding: 2rem 2rem;
-  font-size: 2.5rem;
   border: 0.1rem solid black;
   border-radius: 0.5em;
   font-size: 1.5rem;
   transition: all 250ms ease-in-out;
-}
 
-#call-to-act:hover {
-  transform: translateY(0.2rem);
+  :hover {
+    transform: translateY(0.2rem);
+  }
 }
 
 #sample-text-2 {
@@ -131,6 +134,11 @@ a.button {
 .menu-desplegable {
   display: none;
   position: relative;
+
+  hover .menu-desplegable-content {
+    display: block;
+    background-color: $primaryColor;
+  }
 }
 
 .menu-desplegable-content {
@@ -140,20 +148,27 @@ a.button {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+
+  a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+    :hover {
+      background-color: $secondaryColor;
+    }
+
+  }
 }
 
-.menu-desplegable:hover .menu-desplegable-content {
-  display: block;
-  background-color: #3cd7a5;
+figcaption {
+  font-size: 1rem;
 }
 
-.menu-desplegable-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.menu-desplegable-content a:hover {
-  background-color: #2a705c;
+.saludEnLinea-audio {
+  padding-top: 0.5rem;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }

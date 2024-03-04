@@ -1,3 +1,4 @@
+@import "variables";
 #title {
   margin: 0;
   padding-top: 1rem;
@@ -7,7 +8,7 @@
 }
 
 #especialistas-wrapper {
-  background-color: #3cd7a5;
+  background-color: $primaryColor;
   height: 95%;
   padding: 1rem 1rem;
   display: grid;
@@ -31,4 +32,11 @@
   max-width: 80%;
   height: 80%;
   padding-bottom: 0.3rem;
+}
+
+@media (max-width: 920px) {
+  #especialistas-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column: span 2;
+  }
 }

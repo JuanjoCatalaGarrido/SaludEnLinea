@@ -1,5 +1,8 @@
+@import "variables";
+@import "responsive/aboutUs_responsive";
+
 #about-us-section {
-  background-color: #3cd7a5;
+  background-color: $primaryColor;
   display: flex;
 }
 

@@ -1,5 +1,6 @@
+@import "variables";
 #faq-section {
-  background-color: #3cd7a5;
+  background-color: $primaryColor;
   text-align: center;
 }
 
@@ -22,7 +23,7 @@
 }
 
 #faq-section summary {
-  background-color: #2a705c;
+  background-color: $secondaryColor;
   margin-bottom: 1rem;
 }
 

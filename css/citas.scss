@@ -1,5 +1,8 @@
+@import "variables";
+@import "responsive/citas_responsive";
+
 #citas-section {
-  background-color: #3cd7a5;
+  background-color: $primaryColor;
   text-align: center;
 }
 
@@ -10,7 +13,7 @@
 }
 
 #citas-container {
-  background-color: #2a705c;
+  background-color: $secondaryColor;
   width: 60%;
   height: 60%;
   margin: 0 auto;

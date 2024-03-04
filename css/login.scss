@@ -1,5 +1,8 @@
+@import "variables";
+@import "responsive/login_responsive";
+
 #login-section {
-  background-color: #3cd7a5;
+  background-color: $primaryColor;
   padding: 1rem 1rem;
 
   display: flex;
@@ -32,7 +35,7 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: #2a705c;
+  background-color: $secondaryColor;
   color: white;
   font-size: 1rem;
   padding: 0.3rem;
