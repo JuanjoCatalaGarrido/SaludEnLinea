@@ -1,0 +1,31 @@
+@media (max-width: 920px) {
+  #nav-login-section {
+    display: none; }
+
+  .nav-menu-section-item-2,
+  .nav-menu-section-item-3,
+  .nav-menu-section-item-4,
+  .nav-menu-section-item-5 {
+    display: none; }
+
+  nav {
+    justify-content: center;
+    gap: 0.2rem;
+    flex-basis: 20%; }
+
+  #nav-menu-section-item-1 {
+    flex-basis: 50%; }
+
+  .menu-desplegable {
+    flex-basis: 50%; }
+
+  .menu-desplegable > i {
+    font-size: 1.5rem; }
+
+  .menu-desplegable-content > a {
+    font-size: 1.5rem; }
+
+  .menu-desplegable {
+    display: inline-block; } }
+
+/*# sourceMappingURL=nav_responsive.css.map */

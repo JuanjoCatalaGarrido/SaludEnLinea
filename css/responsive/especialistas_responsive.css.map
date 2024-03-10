@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,yBAA0B;EACxB,sBAAuB;IACrB,qBAAqB,EAAE,qCAAqC;IAC5D,WAAW,EAAE,MAAM",
+"sources": ["especialistas_responsive.scss"],
+"names": [],
+"file": "especialistas_responsive.css"
+}

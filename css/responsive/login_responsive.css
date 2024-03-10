@@ -1,0 +1,27 @@
+@media (max-width: 920px) {
+  #login-section {
+    flex-direction: column;
+    overflow-y: auto;
+    background-image: url("../../resources/images/login-stock-compressed-low-expo.jpg");
+    background-size: cover; }
+
+  #login-form {
+    order: 0; }
+
+  #login-stock-photo-container {
+    justify-content: center;
+    order: 1;
+    display: none; }
+
+  #login-form h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0.4rem; }
+
+  #login-form #register-button {
+    background-color: white;
+    color: black; } }
+
+/*# sourceMappingURL=login_responsive.css.map */

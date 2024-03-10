@@ -1,0 +1,37 @@
+#title {
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem; }
+
+#especialistas-wrapper {
+  background-color: #3cd7a5;
+  height: 95%;
+  padding: 1rem 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  text-align: center;
+  overflow-y: auto; }
+
+.especialista {
+  border: 0.1rem solid black;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.especialista img {
+  max-width: 80%;
+  height: 80%;
+  padding-bottom: 0.3rem; }
+
+@media (max-width: 920px) {
+  #especialistas-wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column: span 2; } }
+
+/*# sourceMappingURL=especialistas.css.map */

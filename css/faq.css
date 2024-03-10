@@ -1,0 +1,26 @@
+#faq-section {
+  background-color: #3cd7a5;
+  text-align: center; }
+
+#faq-section h2 {
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 2rem; }
+
+#faq-section details {
+  width: 70%;
+  margin: 3rem auto; }
+
+#faq-section details summary {
+  padding: 0.2rem;
+  font-size: 1.8rem;
+  color: white; }
+
+#faq-section summary {
+  background-color: #2a705c;
+  margin-bottom: 1rem; }
+
+#faq-section details {
+  font-size: 1.3rem; }
+
+/*# sourceMappingURL=faq.css.map */
