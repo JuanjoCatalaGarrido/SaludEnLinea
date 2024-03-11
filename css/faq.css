@@ -1,6 +1,7 @@
 #faq-section {
   background-color: #3cd7a5;
-  text-align: center; }
+  text-align: center;
+  height: 100%; }
 
 #faq-section h2 {
   margin: 0;
